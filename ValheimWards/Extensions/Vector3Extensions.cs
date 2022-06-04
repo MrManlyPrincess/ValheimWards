@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ValheimOffload.Extensions
+namespace ValheimWards.Extensions
 {
     public static class Vector3Extensions
     {

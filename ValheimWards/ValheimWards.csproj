@@ -7,8 +7,8 @@
     <ProjectGuid>{DEAF4438-8089-40ED-8175-398E1261D45B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ValheimOffload</RootNamespace>
-    <AssemblyName>ValheimOffload</AssemblyName>
+    <RootNamespace>ValheimWards</RootNamespace>
+    <AssemblyName>ValheimWards</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -82,16 +82,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Extensions\ContainerExtensions.cs" />
-    <Compile Include="Extensions\InventoryExtensions.cs" />
-    <Compile Include="Extensions\ItemDataExtensions.cs" />
     <Compile Include="Extensions\Vector2iExtensions.cs" />
     <Compile Include="Extensions\Vector3Extensions.cs" />
-    <Compile Include="Patches\ContainerPatch.cs" />
-    <Compile Include="Patches\InventoryGridPatch.cs" />
+    <Compile Include="Patches\PrivateAreaPatch.cs" />
     <Compile Include="Properties\IgnoreAccessModifiers.cs" />
     <Compile Include="Utils.cs" />
-    <Compile Include="ValheimOffload.cs" />
+    <Compile Include="ValheimWards.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
